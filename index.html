@@ -6,22 +6,32 @@
     <link rel="icon" href="./component/favicon/favicon.ico" type="image/x-icon" sizes="16x16">
     <title>NAVER</title>
     <style>
+        html, body{
+            margin: 0;
+            padding: 0;
+        }
         #wrap{
-
+            text-align: center;
         }
         #wrap-center{
+            display: inline-block;
             width: 1280px;
             height: 215px;
             background-color: yellow;
-            display: inline-block;
-            text-align: center;
+        }
+        #header-hamburger{
+            background-color: blue;
+            width: 48px;
+            height: 48px;
         }
     </style>
 </head>
 <body>
     <div id="wrap">
         <div id="wrap-center">
-            <div id="header"></div>
+            <div id="header">
+                <div id="header-hamburger"></div>
+            </div>
             <div id="search"></div>
             <div id="nav"></div>
             <div id="main"></div>
